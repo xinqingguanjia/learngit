@@ -306,7 +306,7 @@ int main(int argc, char** argv)
 
         //If there are points, find the centroid and calculate the command goal.
         //If there are no points, simply publish a stop goal.
-        if (n>2500)
+        if (n>500)
         {
             x /= n;
             y /= n;
